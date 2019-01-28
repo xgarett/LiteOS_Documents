@@ -90,7 +90,7 @@ UINT32 Blinky_Demo(VOID)
     return LOS_OK;
 }
 ```
-### 3. 定时器回调函数 `static UINT32 Timer_Init(UINT32 ulInterval, UINT16 ulTimerID, UINT32 ulSendMsg)`
+### 3. 定时器回调函数 `static VOID Timer_Callback(UINT32 ulArg)`
 
 ```c
 static VOID Timer_Callback(UINT32 ulArg)
